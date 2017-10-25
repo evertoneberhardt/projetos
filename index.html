@@ -12,32 +12,64 @@
     	}
 
     	#scroll{
-    		widows: 100vw;
+    		width: 100vw;
     		height: 100vh;
     		overflow: hidden;
     	}
 
     	.screen{
+    		display: flex;
     		width: 300vw;
     		height: 100vh;
     	}
 
-    	.page{
+    	#page{
     		width: 100vw;
     		height: 100vh;
-    		float: left;
     	}
+
+    	.pg1{
+    		background-color: gray;
+    	}
+
+    	.pg2{
+    		background-color: green;
+
+    	}
+
+    	.pg3{
+    		background-color: purple;
+    	}
+
+
     </style>
 
 </head>
-<body>
+<body onmousemove="coordenadas(event)">
+
 	<div id="scroll">
 		<div class="screen">
-			<section class="page">Page 1</section>
-			<section class="page">Page 2</section>
-			<section class="page">Page 3</section>
+			<section id="page" class="pg1">Page 1 <p id="mp"></p></section>
+			<section id="page" class="pg2">Page 2</section>
+			<section id="page" class="pg3">Page 3</section>
 		</div>
 	</div>
+
+
+
+	</script>
+
+	<script type="text/javascript">
+		function coordenadas(event)	{
+			
+			x=event.clientX;
+			
+			y=event.clientY;
+
+			// alert("X coords: " + x + ", Y coords: " + y);
+			document.getElementById('mp').innerHTML = "X coords: " + x + ", Y coords: " + y;			
+		}		
+	</script>
 
 </body>
 </html>	
