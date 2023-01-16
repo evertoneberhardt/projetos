@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="REDE MUNDIAL" tvg-logo="http://dns.jslinkdns.xyz:80/images/88e478deaa74ac38ec686043623ae57b.png" group-title="CANAIS | RELIGIOSOS",REDE MUNDIAL
+http://dns.blackoutuhd.com.br:80/MAURTV15/@XY15MAURICIO/209562
+#EXTINF:-1 tvg-id="" tvg-name="Conmebol TV 1 HD" tvg-logo="http://dns.jslinkdns.xyz:80/images/497f2ab6189a7f86a5c3d68648642390.png" group-title="CANAIS | CONMEBOL TV",Conmebol TV 1 HD
+http://dns.blackoutuhd.com.br:80/MAURTV15/@XY15MAURICIO/209801
+#EXTINF:-1 tvg-id="hbo.xtreme.br" tvg-name="HBO XTREME HD" tvg-logo="http://dns.jslinkdns.xyz:80/images/8e3dec1d81e6710db735da702d09eac8.png" group-title="CANAIS | HBO",HBO XTREME HD
